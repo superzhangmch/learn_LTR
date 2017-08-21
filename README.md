@@ -1,6 +1,7 @@
 <h1>几个 LTR 算法的实现</h1>
 <pre>
-    "lambdarank",               # 标准版 lambdarank 
+支持算法如下：
+    "lambdarank",               # 标准版 lambdarank 
     "ranknet",                  # 非按lambdarank方式加速版ranknet
     "ranknet_speedup",          # 按lambdarank方式加速版ranknet
     "ranking_svm",              # hinge loss 的 ranking svm
