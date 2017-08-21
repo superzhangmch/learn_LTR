@@ -1,4 +1,4 @@
-<h1>几个 LTR 算法的实现</h1>
+<h1> LTR 算法的实现</h1>
 <pre>
 支持算法如下：
     "lambdarank",               # 标准版 lambdarank 
