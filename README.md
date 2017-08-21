@@ -17,5 +17,6 @@ or url: https://drive.google.com/drive/folders/0B-dulzPp3MmCM01kYlhhNGQ0djA?usp=
 
 <li>基准: http://www.bigdatalab.ac.cn/benchmark/bm/Domain?domain=Learning%20to%20Rank
 
-<li>各个算法测试性能在 report/ 下, report_X.csv 表示FoldX 的test.txt 上的结果。report_mean.csv 是5个fold的平均。最终测试结果：<a href='report/report_mean.csv'>这里</a>
+<li>各个算法测试性能在 report/ 下, report_X.csv 表示FoldX 的test.txt 上的结果。report_mean.csv 是5个fold的平均。最终测试结果：<a href='report/report_mean.csv'>这里</a>。lambdarank结论和上面的 benchmark 基本差不多，但是ranknet表现甚至微超 lambdarank（基准中ranknet表现明显不如lambdarank的）
+ 
 </ol>
