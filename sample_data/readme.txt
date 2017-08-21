@@ -8,3 +8,4 @@ data src: LETOR4.0 Supervised ranking MQ2007
 url: https://www.microsoft.com/en-us/research/project/letor-learning-rank-information-retrieval/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fum%2Fbeijing%2Fprojects%2Fletor%2Fletor4download.aspx
 or url: https://drive.google.com/drive/folders/0B-dulzPp3MmCM01kYlhhNGQ0djA?usp=sharing
 benchmark baseline: http://www.bigdatalab.ac.cn/benchmark/bm/Domain?domain=Learning%20to%20Rank
+fields: https://arxiv.org/ftp/arxiv/papers/1306/1306.2597.pdf
