@@ -120,8 +120,8 @@ def read_rank(test_file, score_file):
         lb = int(test_data[i][0])
         q = test_data[i][1].split(":")[1]
         q1 = score_data[i][0]
-        sc = float(score_data[i][2])
-        assert q == q1
+        sc = float(score_data[i][-1])
+        # assert q == q1
         if q not in res:
             res[q] = []
         res[q].append([lb, sc])
