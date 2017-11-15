@@ -64,7 +64,7 @@ class RankModel(object):
             diff = input_left - input_right
             d, weight_vars = gen_score(diff, re_use=False)
             score_left, _ = gen_score(input_left, re_use=True)
-
+            # note: SVM 训练的时候一般是一次性训完，而不是batch方式。因此这里只算是近似而已
             loss = tf.reduce_sum(tf.maximum(0., 1. - input_lw * d)) + weight_decay * tf.nn.l2_loss(weight_vars[0])
         elif model_name in ["lambdarank", "ranknet_speedup"]:
             score_left1 = tf.reshape(score_left, [-1])
